@@ -1,0 +1,38 @@
+.Main{
+background-color:rgb(121, 38, 38);
+
+color: rgb(6, 7, 5);
+    margin:2%;
+    box-shadow:10px 0px 10px rgba(0,0,0,0.5)
+}
+
+header{
+    height: 0%;
+}
+a:hover {
+    background-color: rgb(235, 245, 238);
+  }
+
+h1{text-align:center;}
+
+body{
+    display: grid;
+    margin: rem auto 1rem auto; 
+  
+}
+
+header{
+    color:rgba(255, 255, 255, 0.836);
+}
+
+.MyImg{
+    width:150px
+}
+
+html{
+    background-image: url('/photo-1461749280684-dccba630e2f6.jpg'); 
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
