@@ -1,16 +1,13 @@
 .Main{
-background-color:rgb(121, 38, 38);
+background-color:rgb(233, 224, 224);
 
 color: rgb(6, 7, 5);
     margin:2%;
     box-shadow:10px 0px 10px rgba(0,0,0,0.5)
 }
 
-header{
-    height: 0%;
-}
 a:hover {
-    background-color: rgb(235, 245, 238);
+    background-color:white;
   }
 
 h1{text-align:center;}
@@ -18,11 +15,11 @@ h1{text-align:center;}
 body{
     display: grid;
     margin: rem auto 1rem auto; 
-  
 }
 
 header{
-    color:rgba(255, 255, 255, 0.836);
+    color:rgba(235, 227, 227, 0.836);
+    height: 0%;
 }
 
 .MyImg{
@@ -30,9 +27,21 @@ header{
 }
 
 html{
-    background-image: url('/photo-1461749280684-dccba630e2f6.jpg'); 
+    background-image: url('/webb-dark.png'); 
     background-repeat: repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 10% 10%;
 }
 
+footer{
+color: rgb(241, 241, 237);
+}
+
+.navBar{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.projectImg{
+    width: 400px;
+}
